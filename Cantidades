@@ -1,0 +1,28 @@
+ // Practica 9
+ // Fecha de entrega: 07/12/2020                        Morales Salinas Eduardo
+ // Determinar de N cantidades caules son menores o iguales a cero y cuantas mayores a cero 
+ // seccion de bibliotecas 
+ #include<stdio.h>
+int main(){
+	int n,ca,cb,cn;
+	float c;
+	cn=1;
+	ca=0;
+	cb=0;
+	printf("¿Cuantas Cntidadaes deseas evaluar?");
+	scanf("%i", &n);
+	while(cn<=n){
+		printf("Ingresa tu cantidad");
+		scanf("%f", &c);
+		if(c<=0){
+			ca=ca+1;
+			cn=cn+1;
+		}
+		else{
+			cb=cb+1;
+			cn=cn+1;
+		}
+	}
+	printf("El total cantidades menores o iguales a 0 es de: %i", ca);
+	printf("\nEl total cantidades mayores a 0 es de: %i", cb);
+}
