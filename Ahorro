@@ -1,0 +1,19 @@
+ // Practica 9
+ // Fecha de entrega: 07/12/2020                        Morales Salinas Eduardo
+ //Se necesita calcular el ahorro por un año y el mes si se depositan cantidades variables de dinero 
+ // seccion de bibliotecas 
+ #include<stdio.h>
+ int main(){
+int c;
+float r,am,atm;
+c=1;
+while(c<=12){
+	printf("\nCuanto quiere depositar este mes, este es el mes %i" ,c);
+	scanf("%f", &r);
+	am=r+am;
+	printf ("En este mes ahorraste: %lf", am);
+	c=c+1;
+}
+atm=am;
+printf("\nAhorro anual: %lf", atm);
+}
