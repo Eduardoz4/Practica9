@@ -1,0 +1,14 @@
+ // Practica 9
+ // Fecha de entrega: 07/12/2020                        Morales Salinas Eduardo
+ // Imprimir todos los numeros pares del 0 al 100
+ // seccion de bibliotecas 
+ #include<stdio.h>
+ int main(){
+ 	int c;
+ 	c=0;
+ 	while(c<100){
+ 		c=c+2;
+ 	 printf("\n%i",c);
+ 	 
+	 }
+ }
